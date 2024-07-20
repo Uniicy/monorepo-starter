@@ -12,5 +12,10 @@
   "workspaces": [
     "apps/*",
     "libs/*"
-  ]
+  ],
+  "scripts": {
+    "build": "bun run build",
+    "sb": "bun run --cwd apps/design-system sb",
+    "bsb": "bun run --cwd apps/design-system bsb"
+  }
 }
