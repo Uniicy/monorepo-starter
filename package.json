@@ -7,5 +7,10 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
 }
